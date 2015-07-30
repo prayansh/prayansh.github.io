@@ -1,4 +1,4 @@
-![alt tag](https://raw.github.com/dogfalo/materialize/master/images/materialize.gif)
+![alt tag](https://github.com/prayansh/prayansh.github.io/blob/master/images/prayansh-io-alt.png)
 ===========
 
 #prayansh.io
