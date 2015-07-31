@@ -11,6 +11,10 @@ html {
     vertical-align: middle;
 }
 
+#cv-link {
+    -webkit-animation-iteration-count: infinite;
+}
+
 .loader {
     position: absolute;
     top: 0;

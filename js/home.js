@@ -5,6 +5,6 @@ $(window).load(function () {
         $("#contact").addClass("animated zoomIn");
     }, 1000);
     setTimeout(function () {
-        $("#resume").addClass("animated bounce");
+        $("#cv-link").addClass("animated tada");
     }, 2000);
 });
