@@ -6,41 +6,38 @@
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
     <link rel="stylesheet" type="text/css" href="css/animate.css">
     <link rel="stylesheet" type="text/css" href="css/home.css">
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-    <script type="text/javascript">
-        $(window).load(function() {
-            $(".loader").fadeOut("fast");
-            $("body").removeClass("preload");
-        })
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/home.js">
+
     </script>
 </head>
 
-<body class="preload">
+<body>
 <!-- Import Scripts -->
-<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-<script type="text/javascript" src="js/materialize.min.js"></script>
-
 <div class="content loader center-align">
     <img class="responsive-img" src="images/gear.gif"/>
 </div>
+
 <div class="container">
     <div id="tabs" class="row footer">
-        <div class="col s12 m12 l12 animated">
+        <div class="col s12 m12 l12">
             <div class="footer text-darken-3 center-align">
                 <a href="resume.html">
-                    <i class="waves-effect waves-block hoverable fa fa-info fa-2x icon animated pulse"></i>
+                    <i id="resume" class="waves-effect waves-block hoverable fa fa-info fa-2x icon"></i>
                 </a>
             </div>
         </div>
     </div>
     <div class="content">
-        <img class="responsive-img animated zoomInDown " src="images/prayansh-io.png"/>
+        <img id="prim_img" class="responsive-img  " src="images/prayansh-io.png"/>
     </div>
-    <div id="contact" class="row footer">
-        <div class="col s12 m12 l12 animated zoomIn">
+    <div class="row footer">
+        <div id="contact" class="col s12 m12 l12">
             <div class="footer text-darken-3 center-align">
                 <a href="https://bitbucket.org/prayansh" title="Let's Collaborate">
                     <i class="waves-effect waves-block hoverable fa fa-bitbucket fa-2x icon"></i>

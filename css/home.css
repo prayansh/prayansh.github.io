@@ -17,18 +17,11 @@ html {
     bottom: 0%;
     left: 0;
     right: 0%;
-    background-color: #333;
     z-index: 99;
+    background-color: #333;
     color: #e74c3c;
     font-weight: 200;
     font-size: 270%;
-}
-
-.preload * {
-    -webkit-transition: none !important;
-    -moz-transition: none !important;
-    -ms-transition: none !important;
-    -o-transition: none !important;
 }
 
 .footer {
