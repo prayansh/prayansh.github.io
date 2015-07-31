@@ -19,6 +19,9 @@ html {
     right: 0%;
     background-color: #333;
     z-index: 99;
+    color: #e74c3c;
+    font-weight: 200;
+    font-size: 270%;
 }
 
 .preload * {
