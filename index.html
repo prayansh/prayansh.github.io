@@ -129,6 +129,20 @@
                 <div class="portfolio-link" data-toggle="modal">
                     <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
+                            <i class="fa fa-chrome fa-3x"></i>
+                            <h4>Smogon Popups</h4>
+                            <a href="#smogon" class="custom-btn portfolio-link" data-toggle="modal">View
+                                Project</a>
+                        </div>
+                    </div>
+                    <img src="img/portfolio/smogon.png" class="img-responsive project-cover" alt="">
+                </div>
+            </div>
+
+            <div class="col-md-4 col-sm-6 portfolio-item">
+                <div class="portfolio-link" data-toggle="modal">
+                    <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
                             <i class="fa fa-android fa-3x"></i>
                             <h4>Play Ten</h4>
                             <a href="#playten" class="custom-btn portfolio-link" data-toggle="modal">View
@@ -165,8 +179,8 @@
                     </div>
                     <img src="img/portfolio/roboduino.png" class="img-responsive project-cover" alt="">
                 </div>
-
             </div>
+
             <!--<a href="#renewpass" class="portfolio-link" data-toggle="modal">-->
             <!--<div class="portfolio-hover">-->
             <!--<div class="portfolio-hover-content">-->
@@ -381,7 +395,7 @@
                             </div>
                         </div>
                         <p>A bluetooth controlled car built on an arduino uno. It utilises a 4-wheel differential for
-                            turning and navigation. It utilises a bluetoothe module to communicate with an android
+                            turning and navigation. It utilises a bluetooth module to communicate with an android
                             device via an app that I developed specifically for communicating with the car. My very
                             first arduino project, which utilises a small power bank as the primary battery source.</p>
 
@@ -399,8 +413,57 @@
     </div>
 </div>
 
+
+<!-- Smogon Project -->
+<div class="portfolio-modal modal fade" id="smogon" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-content">
+        <div class="close-modal" data-dismiss="modal">
+            <div class="lr">
+                <div class="rl">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <div class="modal-body">
+                        <!-- Project Details Go Here -->
+                        <h2><i class="fa fa-chrome" aria-hidden="true"></i>&nbsp;Smogon Popups</h2>
+
+                        <p class="item-intro text-muted">A chrome extension to display popovers at <i>www.smogon.com</i>
+                            for DOM elements </p>
+
+                        <div class="row">
+                            <div class="col-lg-14 ">
+
+                                <img class="col-lg-3 img-responsive project-img center-block"
+                                     src="img/portfolio/smogon/img1.png" alt="">
+                                <img class="col-lg-3 img-responsive project-img center-block"
+                                     src="img/portfolio/smogon/img2.png" alt="">
+                            </div>
+                        </div>
+                        <p>Chrome extension to display popovers for pokemon abilities and items making the website easy
+                            to navigate.</p>
+                        <p>
+                            Want to view the source code? You can find it at <a
+                                href="https://github.com/prayansh/smogon-pops"><i
+                                class="fa fa-github fa-lg"></i></a></p>
+                        <ul class="list-inline">
+                            <li>Date: January 2017</li>
+                            <li>Category: Chrome Extension</li>
+                        </ul>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>
+                            Close Project
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <!-- Portfolio Modal 4 -->
-<div class=" hidden portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+<div class=" hidden portfolio-modal modal fade" id="placeholders" tabindex="-1" role="dialog" aria-hidden="true">
     <div class="modal-content">
         <div class="close-modal" data-dismiss="modal">
             <div class="lr">
@@ -449,7 +512,7 @@
         <div class="container">
             <h1>Prayansh Srivastava</h1>
 
-            <div class="text-muted large">+1 780-318-1058 &bull;
+            <div class="text-muted large">+1 (206) 822-8319 &bull;
                 <a class="plain-link" href="mailto:mail@prayansh.me">mail@prayansh.me</a> &bull;
                 <a class="plain-link" href="http://prayansh.me/">prayansh.me</a> &bull;
                 <a class="plain-link" href="http://github.com/prayansh">github/prayansh</a>
@@ -476,14 +539,24 @@
                     <h3 class="resume-heading">Work</h3>
                 </div>
                 <div class="col-md-9">
-
                     <div class="experience-row">
-                        <h4 class="resume-title ">TEACHING ASSISTANT (SEPTEMBER 2016 –PRESENT)</h4>
+                        <h4 class="resume-title ">DEVELOPER, CO-OP (JANUARY 2017 – PRESENT)</h4>
+                        <div class="resume-desc bold">Awesense Inc. Vancouver</div>
+                        <div class="resume-desc">
+                            <ul>
+                                <li>Working as a data developer tasked with creating simulation data for electrical
+                                    grid data
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="experience-row">
+                        <h4 class="resume-title ">TEACHING ASSISTANT (SEPTEMBER 2016 – DECEMBER 2016)</h4>
 
                         <div class="resume-desc bold">CPSC 210, University of British Columbia, Vancouver</div>
                         <div class="resume-desc">
                             <ul>
-                                <li>Working as an undergraduate TA for Computer Science course teaching Software
+                                <li>Worked as an undergraduate TA for Computer Science course teaching Software
                                     Construction using Java
                                 </li>
                                 <li>Job responsibility includes managing lab sections and hosting office hours</li>
@@ -534,38 +607,21 @@
 
             <div class="row resume-block">
                 <div class="col-md-3">
-                    <h3 class="resume-heading">Awards</h3>
-                </div>
-                <div class="col-md-9">
-                    <div class="experience-row">
-                        <h4 class="resume-title">Dean's Honour List (May 2016)</h4>
-
-                        <div class="resume-desc">Awarded to students with a standing of 80%, faculty-wide at University
-                            of British Columbia
-                        </div>
-                    </div>
-                    <div class="experience-row">
-                        <h4 class="resume-title">Brand Ambassador of R.N. Podar School (April 2015)</h4>
-
-                        <div class="resume-desc">Awarded to students to recognize their active participation outside
-                            academics
-                        </div>
-                    </div>
-                    <div class="experience-row hidden">
-                        <h4 class="resume-title">Outstanding Performance in ICSE X Board Exams</h4>
-
-                        <div class="resume-desc">Scored a perfect score in the subjects of Computer Applications and
-                            Mathematics at V.C.W. Arya Vidya Mandir, Mumbai in the ICSE X Board Examinations.
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="row resume-block">
-                <div class="col-md-3">
                     <h3 class="resume-heading">Personal Projects</h3>
                 </div>
                 <div class="col-md-9">
+                    <div class="experience-row">
+                        <h4 class="resume-title">Smogon Popups (Lead Dev, December 2016)</h4>
+
+                        <div class="resume-desc">
+                            <ul>
+                                <li>A chrome extension for <i>www.smogon.com</i> to display popups for abilities and
+                                    items
+                                </li>
+                                <li>Makes navigation across the website easier and more intuitive</li>
+                            </ul>
+                        </div>
+                    </div>
                     <div class="experience-row">
                         <h4 class="resume-title">CURRENCY APP (LEAD DEV, AUGUST 2016)</h4>
 
@@ -633,6 +689,35 @@
                         </div>
                     </div>
 
+                </div>
+            </div>
+
+            <div class="row resume-block">
+                <div class="col-md-3">
+                    <h3 class="resume-heading">Awards</h3>
+                </div>
+                <div class="col-md-9">
+                    <div class="experience-row">
+                        <h4 class="resume-title">Dean's Honour List (May 2016)</h4>
+
+                        <div class="resume-desc">Awarded to students with a standing of 80%, faculty-wide at University
+                            of British Columbia
+                        </div>
+                    </div>
+                    <div class="experience-row">
+                        <h4 class="resume-title">Brand Ambassador of R.N. Podar School (April 2015)</h4>
+
+                        <div class="resume-desc">Awarded to students to recognize their active participation outside
+                            academics
+                        </div>
+                    </div>
+                    <div class="experience-row hidden">
+                        <h4 class="resume-title">Outstanding Performance in ICSE X Board Exams</h4>
+
+                        <div class="resume-desc">Scored a perfect score in the subjects of Computer Applications and
+                            Mathematics at V.C.W. Arya Vidya Mandir, Mumbai in the ICSE X Board Examinations.
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -741,7 +826,7 @@
                                 </tr>
                                 <tr>
                                     <td>JavaScript (2 yrs)</td>
-                                    <td>IntelliJ</td>
+                                    <td>IntelliJ IDE's</td>
                                 </tr>
                                 <tr>
                                     <td>C++ (2 yrs)</td>
@@ -749,6 +834,7 @@
                                 </tr>
                                 <tr>
                                     <td>Python (2 yrs)</td>
+                                    <td>Adobe Illustrator</td>
                                 </tr>
                             </table>
                         </div>
@@ -756,8 +842,7 @@
                 </div>
             </div>
 
-            <a href="resume.pdf" target="_blank" class="custom-btn-inv">Download a
-                copy</a>
+            <a href="resume.pdf" target="_blank" class="custom-btn-inv">Download a copy</a>
 
         </div>
     </div>
